@@ -3,7 +3,6 @@ import static org.hamcrest.Matchers.containsString;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.models.ExtendableBean;
 import org.example.models.RawBean;
 import org.junit.jupiter.api.Test;
 
