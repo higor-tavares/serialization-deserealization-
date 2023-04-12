@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonAnySetter;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ExtendableBean2 {
+public class ExtendableBeanRequest {
   public String name;
   private final Map<String, String> properties = new HashMap<String, String>();
 
@@ -30,7 +30,7 @@ public class ExtendableBean2 {
       first = false;
     }
     props.append("]");
-    return "ExtendableBean2 (" +
+    return "ExtendableBeanRequest (" +
         "name='" + name + '\'' +
         ", properties=" + props +
         ')';

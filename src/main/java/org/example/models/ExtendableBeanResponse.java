@@ -4,8 +4,8 @@ import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ExtendableBean {
-  public ExtendableBean(String name){
+public class ExtendableBeanResponse {
+  public ExtendableBeanResponse(String name){
     this.name = name;
     this.properties = new HashMap<String, String>();
   }
